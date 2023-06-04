@@ -23,6 +23,7 @@ Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'ervandew/supertab'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
@@ -38,7 +39,7 @@ set backspace=2
 
 set wildmenu
 
-colorscheme default
+colorscheme evening
 
 set clipboard=unnamed,unnamedplus
 
